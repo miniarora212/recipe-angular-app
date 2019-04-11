@@ -1,4 +1,4 @@
-# recipe-angular-app
+# Recipes Angular Frontend App
 
 Functionality:
 
@@ -12,14 +12,14 @@ Steps to run this application
 - NodeJs
 - Angular JS/CLI
 
-1.) Verify Node JS is installed
+- 1.) Verify Node JS is installed
     -- To check your version, run node -v in a terminal/console window.
     -- To get Node.js, go to nodejs.org.
-2.) Install Angular CLI
+- 2.) Install Angular CLI
     -- npm install -g @angular/cli
-3.) Clone this repository
-4.) Go to the root folder of the repository and run command - npm install
-5.) Run ng serve --open
+- 3.) Clone this repository
+- 4.) Go to the root folder of the repository and run command - npm install
+- 5.) Run ng serve --open
 
 Check your browser at http://localhost:4200
  
