@@ -6,11 +6,12 @@ Functionality:
 - Allow selection of multiple recipes.
 - Show an alphabetically ordered list of distinct ingredients for the selected recipes. This should update as recipes are selected / unselected.
 
+Requirements
 
-Steps to run this application
-#Requirements
 - NodeJs
 - Angular JS/CLI
+
+Steps to run this application
 
 - 1.) Verify Node JS is installed
     -- To check your version, run node -v in a terminal/console window.
