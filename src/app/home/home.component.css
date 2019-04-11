@@ -1,0 +1,34 @@
+/*
+====================
+    Main Container
+====================
+*/
+
+
+.home_container {
+  background-image: url(/assets/img/bg.jpg);
+  height:100%;
+  display: block;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ }
+
+/*
+================
+    Header
+================
+*/
+
+.title {
+  top: 250px;
+  position: relative;
+  font-size: 48px;
+  letter-spacing: 0.15rem;
+  text-align: center;
+  color: #fff;
+  left: 100px;
+}
+.title a {
+  color: #fff;
+}

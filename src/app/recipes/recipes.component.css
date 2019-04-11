@@ -1,0 +1,80 @@
+
+* {
+  font-size: 14px;
+  font-family: 'Titillium Web', sans-serif;
+  color: $black;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+
+/*
+=====================
+    Main Container
+=====================
+*/
+
+
+.root_container {
+    float: left;
+    width: 100%;
+}
+
+.left_side {
+    float: left;
+    border: 1px solid;
+    width: 50%;
+}
+
+.right_side {
+    float: right;
+    width: 49%;
+    border: solid 1px red;
+}
+
+/*
+================
+    Header
+================
+*/
+
+.greeting_text {
+  grid-area: greeting;
+  font-size: 1.25rem;
+  letter-spacing: 0.15rem;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  justify-self: center;
+  align-self: center;
+}
+
+header.main_header {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: darkgreen;
+    background-color: lightyellow;
+ }
+
+
+
+/*
+================-
+    Footer
+================
+*/
+.main_footer {
+  background: transparent;
+  position: absolute;
+  bottom: 1rem;
+  left: 1.5rem;
+  z-index: 100;
+}
+
+.copyright_text {
+  letter-spacing: 0.1rem;
+  color: white;
+}

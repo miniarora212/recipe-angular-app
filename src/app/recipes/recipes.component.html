@@ -1,0 +1,44 @@
+
+<!-- Main COntainer -->
+
+<div class="row" >
+
+	<!-- Header -->
+    <div class="main_header col-md-12 text-center">
+
+        <h3 class="greeting_text">Welcome to Recipes</h3>
+
+    </div>
+
+<!-- Main Content -->
+
+<div class="col-md-8">
+	<h3> Recipes </h3>
+	<ul class="recipes list-group">
+	  <a href="javascript:void()" *ngFor="let recipe of recipes" [class.active]="selectedRecipe(recipe)"
+	    (click)="selectUnselect(recipe)" class="list-group-item list-group-item-action flex-column align-items-start active">
+	    <div class="d-flex w-100 justify-content-between">
+	      <h3 class="mb-2 h3">{{recipe.name}}</h3>
+	      <small><strong>Type:</strong> {{recipe.type}}</small>
+	    </div>
+	    <small><strong>Cook Time:</strong> {{recipe.cook_time}}</small>
+	  </a>
+	</ul>
+</div>
+
+<div class="col-md-4">
+	<h3> Ingredients </h3>
+	<ul class="ingredients">
+	  <li *ngFor="let ingredient of commonIngredients">
+	    {{ingredient}}
+	  </li>
+	</ul>
+	<p *ngIf="commonIngredients.length">
+	Lets by the ingredients : <a target="_blank" href="https://shop.saveonfoods.com/">Click Here</a>
+	</p>
+	<p *ngIf="commonIngredients.length == 0">
+	 Please select recipes to see the list of Ingredients
+	</p>
+</div>
+
+</div>
